@@ -1,0 +1,6 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Property class@anonymous/index\\.php\\:10\\:\\:\\$arr type has no value type specified in iterable type array\\.$#"
+			count: 1
+			path: src/index.php
